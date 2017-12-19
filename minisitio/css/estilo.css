@@ -107,7 +107,8 @@ header{
 	font-weight: bolder !important;
 	position: fixed;
 	width: 100%;
-	background-color: rgba(249,249,249,0.6);
+/*	background-color: rgba(249,249,249,0.6);*/
+background-color: red;
 	z-index: 999999999;
 }
 

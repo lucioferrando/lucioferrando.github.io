@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen and (min-width: 767px)"/>
+	<link href="css/tablet.css" rel="stylesheet" type="text/css" media="handheld, screen and (max-width: 768px) and (min-width: 479px)" />
+	<link href="css/mobile.css" rel="stylesheet" type="text/css" media="handheld, screen and (max-width: 480px)" />
+	<link rel="stylesheet" type="text/css" href="css/reboot.css"/>
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<title>Ferrando Lucio</title>
+</head>
+<body id="arriba">
+<main>
+	<header>
+		<div id="logoheader">
+			<a href="index.html">
+				<div id="botonheader"><p>LF</p></div>
+				<div id="nombreheader"><p>Lucio Ferrando</p></div>
+			</a>
+		</div>
+		<div class="botoneraheader">
+			<ul class="botoneramobile">
+				<li class="botones hidden1"><a class="linka" href="index.html">
+					<span><div class="btn"></div></span>
+					<span class="botoneshover">Inicio</span>
+				</a></li>
+				<li class="botones">
+					<a class="linka" href="trabajos.html">
+						<span>
+							<div class="btn">
+							</div>
+						</span>
+						<span class="botoneshover">Trabajos
+						</span>
+					</a>
+				</li>
+				<li class="botones">
+					<a  class="linka" href="about.html">
+						<span><div class="btn"></div></span>
+						<span class="botoneshover">Sobre Mi</span>
+					</a>
+				</li>
+				<li class="botones"><a  class="linka" href="contacto.html">
+					<span><div class="btnactivo"></div></span>
+						<span class="botoneshover activo">Contacto</span>
+					</a>
+				</li>
+				<li class="botones asdf"><a class="linka" href="#arriba">
+					<span><div class="btnarriba"></div></span>
+						<span class="botoneshover regresar">Regresar</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<section class="contactosection">
+		<div id="wrapperizq">
+		<div id="subtitulo">
+			<h2 class="marginfix">Contacto</h2>
+		</div>
+			<div id="textocontacto">
+				<p>Quiero escuchar sobre vos! Seas un posible cliente, socio, compañero o amigo, siempre me gusta conocer gente nueva!</p>
+			</div>
+			<span class="hiddenmobile">
+				<h3>Mis datos.</h3>
+				<div id="wrapperdatos">
+					<div class="childdatos childwidthleft">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Nombre:</p>
+							<p>Lucio Ferrando</p>
+						</div>
+					</div>
+					<div class="childdatos childwidthright">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Email:</p>
+							<p>luciobayard@gmail.com</p>
+						</div>
+					</div>
+					<div class="childdatos childwidthleft">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Telefono:</p>
+							<p>+54 9 11 3644-7302</p>
+						</div>
+					</div>
+					<div class="childdatos childwidthright">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Ubicación:</p>
+							<p>Palermo, C.A.B.A<span class="hidden2">, Argentina.</span></p>
+						</div>
+					</div>
+				</div>
+			</span>
+			<span class="hiddendesktop">
+				<div id="wrapperform">
+					<h3 class="hiddendesktop dormir">Hablemos!</h3>
+					<form id="form" action="/php/mail.php" class="form row mt-md">
+		                <div class="formis nomargintop">
+		                  <div class="tag">Cual es tu nombre?</div>
+		                  <input required type="text" name="name" class="form-control" placeholder="Mi nombre">
+		                </div>
+		                <div class="formis">
+		                  <div class="tag">Dirección de Email?</div>
+		                  <input required type="email" name="email" class="form-control" placeholder="Mi email">
+		                </div>
+		                <div class="formis">
+		                  <div class="tag">Escribí tu mensaje!</div>
+		                  <textarea required name="message" class="form-control form-mensaje" placeholder="Mi mensaje"></textarea><br>
+		                  <button id="send" type="submit" class="button buttonform">Enviar mensaje</button>
+						</div>
+					</form>
+				</div>
+			</span>
+		</div>
+				<div id="separadorsection" class="hiddendesktop">
+					<img src="img/zickzack_white.svg">
+				</div>
+		<span class="hiddenmobile">
+			<div id="wrapperder">
+				<div class="left wpwrapper block">
+					<img class="left wpcontacto block" src="img/wpcont.jpg">
+				</div>
+
+				<h3 class="hiddenmobile dormir">Hablemos!</h3>
+				<div id="wrapperform">
+					<h3 class="hiddendesktop dormir">Hablemos!</h3>
+					<form id="form" action="/php/mail.php" class="form row mt-md">
+		                <div class="formis nomargintop">
+		                  <div class="tag">Cual es tu nombre?</div>
+		                  <input required type="text" name="name" class="form-control" placeholder="Mi nombre">
+		                </div>
+		                <div class="formis">
+		                  <div class="tag">Dirección de Email?</div>
+		                  <input required type="email" name="email" class="form-control" placeholder="Mi email">
+		                </div>
+		                <div class="formis">
+		                  <div class="tag">Escribí tu mensaje!</div>
+		                  <textarea required name="message" class="form-control form-mensaje" placeholder="Mi mensaje"></textarea><br>
+		                  <button id="send" type="submit" class="button buttonform">Enviar mensaje</button>
+						</div>
+					</form>
+				</div>
+			</div>
+				<br><br>
+		</span>
+		<span class="hiddendesktop">
+			<div id="wrapperder">
+				<div class="left wpwrapper block">
+					<img class="left wpcontacto block" src="img/wpcont.jpg">
+				</div>
+
+				<h3 class="hiddenmobile dormir">Hablemos!</h3>
+					<h3 class="misdatostitulo">Mis datos.</h3>
+					<div id="wrapperdatos">
+					<div class="childdatos childwidthleft">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Nombre:</p>
+							<p>Lucio Ferrando</p>
+						</div>
+					</div>
+					<div class="childdatos childwidthright">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Email:</p>
+							<p>luciobayard@gmail.com</p>
+						</div>
+					</div>
+					<div class="childdatos childwidthleft">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Telefono:</p>
+							<p>+54 9 11 3644-7302</p>
+						</div>
+					</div>
+					<div class="childdatos childwidthright">
+						<div class="left imgcontactomobile">
+							<img class="svg imgcontacto" src="img/diamond.svg">
+						</div>
+						<div class="left">
+							<p class="bold">Ubicación:</p>
+							<p>Palermo, C.A.B.A<span class="hidden2">, Argentina.</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+				<br><br>
+		</span>
+	<div id="separadorsection">
+		<img src="img/zickzack_white.svg">
+	</div>
+
+	</section>
+	<footer>
+		<div id="futer">
+			<img class="svg imgcontacto" src="img/diamond.svg">
+			<p>2017</p>
+			<p>por <a class="afooter" href="minisitio/index.html">Lucio Ferrando</a></p>
+			<div id="lineafooter"></div>
+			<div id="redes">
+				<a href="https://twitter.com" target="_blank"><div class="redtw"></div></a>
+				<a href="https://www.instagram.com" target="_blank"><div class="redis"></div></a>
+				<a href="https://es-la.facebook.com/" target="_blank"><div class="redfb"></div></a>
+			</div>
+		</div>
+	</footer>
+</main>
+</body>
+</html>

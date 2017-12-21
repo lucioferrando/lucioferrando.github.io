@@ -332,8 +332,7 @@ h2:hover{
 	height: 100%;
 	display: inline-block;
 	margin: 0px 0px 0px 0px;
-	padding: 30px 30px;
-	padding-left: 0px !important;
+	padding: 40px 20px;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 0.5s ease;
@@ -349,9 +348,7 @@ h2:hover{
 	padding-left: 40px;
 	height: 50px;
 }
-.trabajoscajacontenidostituloespecial{
-	padding-right: 10px;
-}
+
 #linea{
 	height: 1px;
 	width: 40px;
@@ -403,7 +400,7 @@ footer p{
 	color: #717171 !important;
 }
 
-.afooter:hover .svg{
+.afooter:hover .svg, #lineafooter,{
 	transition: all .25s ease;
 	color: #717171 !important;
 	filter:grayscale(100%);
@@ -762,11 +759,6 @@ h5{
 
 #wrapperdatos p{
 	margin-bottom: 0px;
-}
-
-#datos{
-	position: relative;
-	top: 40px;
 }
 
 .imgcontacto{

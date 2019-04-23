@@ -635,17 +635,18 @@ img.trabajosimglargo{
 .button{
 	height: 32px !important;
 	line-height: 30px !important;
-	color: #c0a062;
 	font-weight: lighter;
 	text-transform: uppercase;
 	padding: 0px 12px 0px 12px;
 	opacity: 0.9;
 	transition: all .25s ease-in;
 	font-family: 'Roboto', sans-serif;
+  background-color: #161616;
 	color: #C0A062 !important;
 	border:1px solid #c0a062;
 	display: inline-block;
 	margin-left: 100px;
+	cursor: pointer;
 }
 
 .button:hover{
@@ -955,5 +956,56 @@ h5{
 }
 #futer{
 	clear: both;
+}
 
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: rgba(22, 22, 22, 0.5);
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	position: absolute;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.iframe-container-responsive {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.iframe-responsive {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }

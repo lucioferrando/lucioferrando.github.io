@@ -656,6 +656,7 @@ img.trabajosimglargo{
 	border:1px solid #c0a062;
 	display: inline-block;
 	margin-left: 20px;
+  background-color: #161616;
 }
 
 .button:hover{
@@ -963,8 +964,8 @@ h5{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 50%;
-	height: 50%;
+	width: 90%;
+	height: auto;
 }
 
 /* The Close Button */

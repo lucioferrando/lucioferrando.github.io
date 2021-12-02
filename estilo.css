@@ -468,6 +468,9 @@ footer p{
 .redtw{
 	background-image: url('../img/redtw.png');
 }
+.redli{
+	background-image: url('../img/redli.png');
+}
 .redfb{
 	background-image: url('../img/redfb.png');
 }
@@ -480,6 +483,12 @@ a:hover .redis{
 }
 a:hover .redtw{
 	background: url(../img/redtwACTIVE.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+a:hover .redli{
+	background: url(../img/redliACTIVE.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;

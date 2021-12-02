@@ -810,7 +810,8 @@ h5{
 }
 
 .childwidthright{
-	width: 260px;
+	min-width: 260px;
+	padding-right: 20px;
 }
 #wrapperder{
 	display: inline-block;
@@ -863,6 +864,8 @@ h5{
 	margin: 20px 0px 0px 0px !important;
 	width: 100%;
 	height: 45px !important;
+	padding: 7px 0px 0px 0px;
+	text-align: center;
 }
 
 .block{

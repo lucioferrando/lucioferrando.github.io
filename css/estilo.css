@@ -452,7 +452,7 @@ footer p{
 	display: inline-block;
 	width: 30px;
 }
-.redis, .redtw, .redfb{
+.redis, .redtw, .redli, .redfb{
 	display: inline-block;
 	width: 30px;
 	height: 30px;
@@ -471,6 +471,9 @@ footer p{
 .redfb{
 	background-image: url('../img/redfb.png');
 }
+.redli{
+	background-image: url('../img/redli.png');
+}
 
 a:hover .redis{
 	background: url(../img/redisACTIVE.png);
@@ -480,6 +483,12 @@ a:hover .redis{
 }
 a:hover .redtw{
 	background: url(../img/redtwACTIVE.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+a:hover .redli{
+	background: url(../img/redliACTIVE.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -517,7 +526,7 @@ h4{
 	width: 100%;
 }
 .trabajosimgcentrar{
-	width: 960px;
+	width: auto;
 	height: 600px;
 	overflow: hidden;
 	text-align: center;
@@ -526,6 +535,7 @@ h4{
 	transition: all .25s ease-out;
 	outline: 10px solid rgba(22,22,22,0.6);
 	outline-offset: -10px;
+	
 }
 
 img.trabajosimg{
@@ -823,6 +833,8 @@ h5{
 	margin: 20px 0px 80px 0px !important;
 	width: 350px;
 	height: 45px !important;
+	padding: 7px 0px 0px 0px;
+	text-align: center;
 }
 
 .block{
@@ -914,6 +926,62 @@ h5{
 	margin-bottom: 80px;
 	opacity: 0.25;
 }
+
+
+/* GALERIA *//* GALERIA *//* GALERIA *//* GALERIA *//* GALERIA */
+/* GALERIA *//* GALERIA *//* GALERIA *//* GALERIA *//* GALERIA */
+/* GALERIA *//* GALERIA *//* GALERIA *//* GALERIA *//* GALERIA */
+
+
+.div-gallery-retrato {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+
+  }
+
+.gallery-grid-container {
+	display: -ms-grid;
+	display: grid;
+	margin-top: 40px;
+	-webkit-box-pack: stretch;
+	-webkit-justify-content: stretch;
+	-ms-flex-pack: stretch;
+	justify-content: stretch;
+	justify-items: stretch;
+	-ms-grid-row-align: center;
+	align-self: center;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-areas: ".";
+	-ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	-ms-grid-rows: 1fr;
+	grid-template-rows: 1fr;
+  }
+
+  .thumb-retrato {
+	position: absolute;
+
+
+	height: 100%;
+
+  }
+
+  .retrato-link-gallery._05 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	right: auto;
+	bottom: auto;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+  }
+
 
 @media all and (max-width: 970px) and (min-width: 808px){
 		#wrapperizq{
